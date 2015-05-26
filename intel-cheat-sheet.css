@@ -1,0 +1,215 @@
+body {
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+td a:link, td a:visited, td a:hover, td a:active, td a:focus {
+	color: inherit;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	padding: 2px 6px 1px 6px;
+	border-radius: 4px;
+}
+
+td a:hover, td a:active, td a:focus {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.socketTable .chipsets a:hover,
+.socketTable .chipsets a:active,
+.socketTable .chipsets a:focus {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*td a:hover::before, td a:active::before, td a:focus::before,
+td a:hover::after, td a:active::after, td a:focus::after {
+	background-color: white;
+	content: "";
+	display: inline-block;
+	width: 6px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+a:hover::before, a:active::before, a:focus::before {
+	right: 0px;
+}
+a:hover::after, a:active::after, a:focus::after {
+	left: 0px;
+}*/
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+
+td, th {
+	border: 1px black solid;
+	border-collapse: collapse;
+	height: 48px;
+	padding: 0;
+}
+
+th {
+	padding-right: 8px;
+}
+
+thead th:first-child {
+	width: 300px;
+}
+
+td {
+	text-align: center;
+}
+
+.noPadding {
+	padding: 0px;
+}
+
+
+/* Socket Table */
+
+.socketTable td {
+	color: white;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 1),
+                 0 0 1px rgba(0, 0, 0, 1),
+                 0 0 4px rgba(0, 0, 0, 1),
+                 0 0 8px rgba(0, 0, 0, 1);
+	line-height: 1em;
+	font-size: 1.125em;
+}
+
+.socketTable tr:first-child td,
+.socketTable tr.chipsets td {
+	text-shadow: none;
+	color: black;
+}
+
+.socketTable tr.chipsets td {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.socketTable tr.chipsets td a {
+	color: black;
+}
+
+#IntelCheatSheet > tbody > tr:nth-child(n+3) td,
+#IntelCheatSheet > tbody > tr:nth-child(n+3) th,
+.socketTable tr:nth-child(n+3) td {
+	height: 96px;
+}
+
+.socketTable td, .socketTable th {
+	border: 1px solid black;
+}
+
+.socketTable tr:first-child * {
+	border-top: none;
+}
+
+.socketTable tr:last-child * {
+	border-bottom: none;
+}
+
+.socketTable tr *:first-child {
+	border-left: none;
+}
+
+.socketTable tr *:last-child {
+	border-right: none;
+}
+
+.NA {
+	opacity: 0.2;
+}
+
+.unknown {
+	opacity: 0.4;
+}
+
+.nonnative {
+	opacity: 0.5;
+}
+
+.socketTable.subGens {
+	table-layout: auto;
+}
+
+.socketTable td q {
+	font-size: 0.8em;
+}
+
+.socketTable td small {
+	/* Info about cores/threads, RAM, etc */
+	font-size: 0.6em;
+	opacity: 0.95;
+	word-spacing: 0.1em;
+}
+
+.socketTable td small::before {
+	content: '(';
+}
+
+.socketTable td small::after {
+	content: ')';
+}
+
+.socketTable td.quarter {
+	width: 25%;
+}
+
+
+/* Intel Cheat Sheet */
+
+#IntelCheatSheet > tbody {
+	border-top: 4px black solid;
+}
+
+#IntelCheatSheet {
+	border: 4px black solid;
+	width: 3200px;
+}
+
+th {
+	text-align: right;
+	background-color: rgb(230, 230, 230);
+}
+
+#IntelCheatSheet .inlineTR {
+	border-top: none;
+}
+
+
+/* Colors */
+
+.Nehalem_Arch { background-color: rgba(210, 50, 170, 0.2); }
+.Nehalem    { background-color: rgba(210, 50, 170, 0.5); }
+.Nehalem-E  { background-color: rgba(210, 50, 170, 1); }
+.Westmere_Arch { background-color: rgba(150, 50, 200, 0.2); }
+.Westmere   { background-color: rgba(150, 50, 200, 0.5); }
+.Westmere-E { background-color: rgba(150, 50, 200, 1); }
+
+.Sandy_Bridge_Arch   { background-color: rgba(50, 120, 210, 0.2); }
+.Sandy_Bridge   { background-color: rgba(50, 120, 210, 0.5); }
+.Sandy_Bridge-E { background-color: rgba(50, 120, 210, 1); }
+.Ivy_Bridge_Arch     { background-color: rgba(20, 70, 190, 0.2); }
+.Ivy_Bridge     { background-color: rgba(20, 70, 190, 0.5); }
+.Ivy_Bridge-E   { background-color: rgba(20, 70, 190, 1); }
+
+.Haswell_Arch     { background-color: rgba(210, 180, 0, 0.2); }
+.Haswell     { background-color: rgba(210, 180, 0, 0.5); }
+.Haswell-E   { background-color: rgba(210, 180, 0, 1); }
+.Broadwell_Arch   { background-color: rgba(200, 120, 0, 0.2); }
+.Broadwell   { background-color: rgba(200, 120, 0, 0.5); }
+.Broadwell-E { background-color: rgba(200, 120, 0, 1); }
+
+.Skylake_Arch   { background-color: rgba(80, 180, 0, 0.2); }
+.Skylake   { background-color: rgba(80, 180, 0, 0.5); }
+.Skylake-E { background-color: rgba(80, 180, 0, 1); }
+.Cannonlake_Arch { background-color: rgba(20, 130, 30, 0.2); }
+.Cannonlake { background-color: rgba(20, 130, 30, 0.5); }
+.Cannonlake-E { background-color: rgba(20, 130, 30, 1); }
