@@ -58,7 +58,7 @@ We can also see that, since they lie within the LGA 1155 subtable, 2600K and 377
 ## Usage
 
 It can often be practical to link to or embed the cheat sheet as an image. The latest version will always be available here in these sizes:
-* [`ICS100.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS100.png) – 100% (3200×918, ~700 KB)
+* [`ICS100.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS100.png) – 100% (3200×841, ~700 KB)
 * [`ICS200.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS200.png) – 200% (6400×1682, ~2 MB)
 * [`ICS400.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS400.png) – 400% (12800×3364, ~7 MB)
 
