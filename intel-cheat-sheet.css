@@ -210,6 +210,6 @@ th {
 .Skylake_Arch   { background-color: rgba(80, 180, 0, 0.2); }
 .Skylake   { background-color: rgba(80, 180, 0, 0.5); }
 .Skylake-E { background-color: rgba(80, 180, 0, 1); }
-.Cannonlake_Arch { background-color: rgba(20, 130, 30, 0.2); }
-.Cannonlake { background-color: rgba(20, 130, 30, 0.5); }
-.Cannonlake-E { background-color: rgba(20, 130, 30, 1); }
+.Kaby_Lake_Arch { background-color: rgba(20, 130, 30, 0.2); }
+.Kaby_Lake { background-color: rgba(20, 130, 30, 0.5); }
+.Kaby_Lake-E { background-color: rgba(20, 130, 30, 1); }
