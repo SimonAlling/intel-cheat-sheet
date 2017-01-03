@@ -89,14 +89,6 @@ td {
 	color: black;
 }
 
-.socketTable tr.chipsets td {
-	color: rgba(0, 0, 0, 0.5);
-}
-
-.socketTable tr.chipsets td a {
-	color: black;
-}
-
 #IntelCheatSheet > tbody > tr:nth-child(n+3) td,
 #IntelCheatSheet > tbody > tr:nth-child(n+3) th,
 .socketTable tr:nth-child(n+3) td {
@@ -128,11 +120,11 @@ td {
 }
 
 .unknown {
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 .old {
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 .socketTable.subGens {
