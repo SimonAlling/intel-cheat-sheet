@@ -12,9 +12,9 @@ Each generation is usually released alongside a chipset, an IC soldered onto the
 ## Purpose
 
 The purpose of this table is to provide an overview of the processor generations released by Intel since the introduction of Nehalem in 2008, with focus only on the desktop market (not laptop or server). Nehalem was chosen as the starting point for several reasons:
-* It is often seen as the oldest generation that is still somewhat relevant for performance computing (as of 2015).
-* Offering a wide range of (for Intel CPUs) new functionality such as DDR3, SMT, integrated Northbridge and memory controller, QPI, and L3 cache, it can be considered a distinct starting point of the current era.
-* It introduced the now familiar Core i3/i5/i7 naming scheme, so it fits nicely into the table.
+* It was often seen as the oldest generation that was still somewhat relevant for performance computing as of 2015.
+* Offering a wide range of (for Intel CPUs) new functionality such as DDR3, SMT, integrated Northbridge and memory controller, QPI, and L3 cache, it could be considered a distinct starting point of the then current era.
+* It introduced the familiar Core i3/i5/i7 naming scheme, so it fits nicely into the table.
 
 The Celeron market segment has been entirely omitted since it was not considered interesting enough to justify the increase in visual complexity caused by including it.
 
