@@ -27,14 +27,14 @@ Generation information includes:
 * whether it is a Tick or a Tock;
 * manufacturing process (lithography);
 * codename and (semi-official) abbreviation;
-* the most common chipset(s) associated with it, with codename(s); and
+* the most common chipset associated with it, with codename; and
 * notable examples of SKUs.
 
 Processor information includes:
 * model number;
 * codename;
 * number of cores and threads;
-* amount of L3 cache;
+* amount of L3 cache (and L4, when applicable);
 * memory configuration (number of channels and memory type); and
 * release date (year and quarter).
 
@@ -52,14 +52,14 @@ From this info, we can tell that the Core i7-2600K:
 * supports two channels of DDR3 memory; and
 * was released in the first quarter of 2011.
 
-We can also see that, since they lie within the LGA 1155 subtable, 2600K and 3770K are both compatible with that socket. It is also apparent that they are both supported by the Z68 and Z77 chipsets, but that (as indicated by the styling of the chipset names) Z68 was released alongside 2600K and Z77 together with 3770K.
+We can also see that, since they lie within the LGA 1155 subtable, 2600K and 3770K are both compatible with that socket. It is also apparent that Z68 was released alongside 2600K and Z77 together with 3770K.
 
 
 ## Usage
 
 It can often be practical to link to or embed the cheat sheet as an image. The latest version will always be available here in these sizes:
-* [`ICS100.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS100.png) – 100% (3200×841, ~700 KB)
-* [`ICS200.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS200.png) – 200% (6400×1682, ~2 MB)
-* [`ICS400.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS400.png) – 400% (12800×3364, ~7 MB)
+* [`ICS100.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS100.png) – 100% (3200×841, ~800 KB)
+* [`ICS200.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS200.png) – 200% (6400×1682, ~2,5 MB)
+* [`ICS400.png`](https://raw.githubusercontent.com/SimonAlling/intel-cheat-sheet/master/ICS400.png) – 400% (12800×3364, ~8 MB)
 
 Please note that the 400% version is generally too large to embed on a discussion board. (It will take around 10 seconds to load it over an 8Mbit/s connection.) Therefore, it is recommended to use the smaller versions for embedding.
