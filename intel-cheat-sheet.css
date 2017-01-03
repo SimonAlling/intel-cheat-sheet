@@ -142,12 +142,9 @@ td {
 	word-spacing: 0.1em;
 }
 
-.socketTable td small::before {
-	content: '(';
-}
-
-.socketTable td small::after {
-	content: ')';
+.socketTable td > :first-child:last-child small {
+	display: block;
+	margin-top: 0.2em;
 }
 
 .socketTable td.quarter {
