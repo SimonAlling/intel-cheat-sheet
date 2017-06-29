@@ -24,23 +24,6 @@ td a:hover, td a:active, td a:focus {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-/*td a:hover::before, td a:active::before, td a:focus::before,
-td a:hover::after, td a:active::after, td a:focus::after {
-	background-color: white;
-	content: "";
-	display: inline-block;
-	width: 6px;
-	height: 100%;
-	position: absolute;
-	top: 0;
-}
-a:hover::before, a:active::before, a:focus::before {
-	right: 0px;
-}
-a:hover::after, a:active::after, a:focus::after {
-	left: 0px;
-}*/
-
 table {
 	border-collapse: collapse;
 	table-layout: fixed;
