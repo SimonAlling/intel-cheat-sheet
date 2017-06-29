@@ -89,8 +89,8 @@ td {
 	color: black;
 }
 
-#IntelCheatSheet > tbody > tr:nth-child(n+3) td,
-#IntelCheatSheet > tbody > tr:nth-child(n+3) th,
+#IntelCheatSheet > tbody tr:nth-child(n+3) td,
+#IntelCheatSheet > tbody tr:nth-child(n+3) th,
 .socketTable tr:nth-child(n+3) td {
 	height: 96px;
 }
@@ -170,10 +170,6 @@ td {
 th {
 	text-align: right;
 	background-color: rgb(230, 230, 230);
-}
-
-#IntelCheatSheet .inlineTR {
-	border-top: none;
 }
 
 
