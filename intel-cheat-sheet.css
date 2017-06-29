@@ -14,13 +14,16 @@ td a:link, td a:visited, td a:hover, td a:active, td a:focus {
 	border-radius: 4px;
 }
 
-td a:hover, td a:active, td a:focus {
+a:hover, a:active, a:focus {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
-.socketTable .chipsets a:hover,
-.socketTable .chipsets a:active,
-.socketTable .chipsets a:focus {
+thead a:hover,
+thead a:active,
+thead a:focus,
+.chipsets a:hover,
+.chipsets a:active,
+.chipsets a:focus {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
