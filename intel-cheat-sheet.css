@@ -119,6 +119,10 @@ td {
 	opacity: 0.2;
 }
 
+.NA::before {
+	content: "N/A";
+}
+
 .unknown {
 	opacity: 0.3;
 }
