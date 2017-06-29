@@ -67,6 +67,25 @@ td {
 }
 
 
+/* Product Status */
+
+.NA {
+	opacity: 0.2;
+}
+
+.NA::before {
+	content: "N/A";
+}
+
+.unknown {
+	opacity: 0.3;
+}
+
+.old {
+	opacity: 0.6;
+}
+
+
 /* Socket Table */
 
 .socketTable td {
@@ -109,22 +128,6 @@ td {
 
 .socketTable tr *:last-child {
 	border-right: none;
-}
-
-.NA {
-	opacity: 0.2;
-}
-
-.NA::before {
-	content: "N/A";
-}
-
-.unknown {
-	opacity: 0.3;
-}
-
-.old {
-	opacity: 0.6;
 }
 
 .socketTable.subGens {
